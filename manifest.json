@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Mi extensión",
+    "version": "1.0",
+    "description": "Muestra el bearer token asociado al tab seleccionado",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "<all_urls>"
+      ],
+    "permissions": [
+      "tabs",
+      "cookies"
+    ]
+  }
